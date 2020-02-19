@@ -1,0 +1,55 @@
+# Pretty print the path
+alias path='echo $PATH | tr -s ":" "\n"'
+
+### cmd alias ###
+alias ll="ls -lah"
+alias la="ls -A"
+alias l="ls -CF"
+alias ln="ln -v"
+alias v="$VISUAL"
+
+alias q="exit"
+alias c="clear"
+alias h="history"
+alias cs="clear;ls"
+alias pd="pwd"
+alias k="kill"
+alias ed="echo $DISPLAY"
+alias gtop="watch -n 1 nvidia-smi"
+alias p="python"
+
+### directories ###
+alias ~="cd ~"
+alias root="cd /"
+alias dwld="cd ~/Downloads"
+alias dpd="cd ~/Code/next_gen_dpd"
+alias cl="cd ~/Code/conservative-learning"
+alias adp="cd ~/Code/adaptive_learning"
+alias dpd="cd ~/Code/next_gen_dpd"
+
+#### Common project directories ###
+alias o=open
+alias ..="cd .."
+alias ...="cd ..; cd .."
+alias ....="cd ..; cd ..; cd .."
+
+### Git ###
+alias g="git"
+alias st="git status"
+alias br="git branch"
+alias clone="git clone"
+
+### Conda ###
+alias a="conda activate"
+alias da="conda deactivate"
+alias envs="conda info --envs"
+alias list="conda list"
+alias cc="conda create --name"
+
+### Notebook ###
+alias jl="jupyter lab &"
+
+### Tmux alias ###
+alias ta="tmux attach -t"
+alias tl="tmux list-sessions"
+alias t="tmux attach || tmux new-session\; split-window -h"
