@@ -1,3 +1,13 @@
+[alias]
+	update-submodules = submodule update --init --recursive
+	upgrade-submodules = submodule update --init --remote
+
+[color]
+	ui = auto
+
+[core]
+	excludesfile = ~/.gitignore_global
+
 [user]
 	name = Wenjie Lu
-	email = wenjie.lu@analog.com
+	email = luwenjie2002@gmail.com

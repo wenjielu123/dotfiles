@@ -6,13 +6,16 @@
 - clean: ['~', '~/.config']
 
 - link:
-  ~/.aliases:
-  # ~/.bash_profile:
-  # ~/.bashrc:
-  # ~/.tmux.conf:
-  # ~/.vimrc:
-  # ~/.zshrc:  
+    ~/.aliases:
+    ~/.bash_profile:
+    ~/.bashrc:
+    ~/.gitconfig:
+    ~/.gitignore_global:
+    ~/.tmux.conf:
+    ~/.vimrc:
+    ~/.zsh:
+    ~/.zshrc:  
 
-# - shell:
-  # - git submodule sync --recursive
-  # - git update-submodules # after linking ~/.gitconfig
+- shell:
+  - git submodule sync --recursive
+  - git update-submodules # after linking ~/.gitconfig

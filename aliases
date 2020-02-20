@@ -53,3 +53,6 @@ alias jl="jupyter lab &"
 alias ta="tmux attach -t"
 alias tl="tmux list-sessions"
 alias t="tmux attach || tmux new-session\; split-window -h"
+
+### SSH ###
+alias adi="ssh -Y wlu-adi"
