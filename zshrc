@@ -87,7 +87,8 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-fpath+=$HOME/.zsh/plugins/zsh-autosuggestions/src
+# fpath+=$HOME/.zsh/plugins/zsh-autosuggestions/src
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 source $ZSH/oh-my-zsh.sh
