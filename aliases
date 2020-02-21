@@ -1,6 +1,10 @@
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
+# Use colors in coreutils utilities output
+alias ls='ls --color=auto'
+alias grep='grep --color'
+
 ### cmd alias ###
 alias ll="ls -lah"
 alias la="ls -A"
@@ -10,9 +14,6 @@ alias v="$VISUAL"
 
 alias q="exit"
 alias c="clear"
-alias h="history"
-alias cs="clear;ls"
-alias pd="pwd"
 alias k="kill"
 alias ed="echo $DISPLAY"
 alias gtop="watch -n 1 nvidia-smi"
@@ -27,17 +28,19 @@ alias cl="cd ~/Code/conservative-learning"
 alias adp="cd ~/Code/adaptive_learning"
 alias dpd="cd ~/Code/next_gen_dpd"
 
+
 #### Common project directories ###
 alias o=open
 alias ..="cd .."
 alias ...="cd ..; cd .."
 alias ....="cd ..; cd ..; cd .."
 
-### Git ###
-alias g="git"
-alias st="git status"
-alias br="git branch"
-alias clone="git clone"
+# Aliases to protect against overwritting
+alias cp='cp -i'
+alias mv='mv -i'
+
+### Git related aliases ###
+alias gag='git exec ag'
 
 ### Conda ###
 alias a="conda activate"

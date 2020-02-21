@@ -1,7 +1,9 @@
 ZSH_DISABLE_COMPFIX="true"
 
 # Enable dircolors
-eval `dircolors ~/.zsh/dircolors-solarized/dircolors.256dark`
+if [[ "$(uname)" != "Darwin" ]]; then {
+    eval `dircolors ~/.zsh/dircolors-solarized/dircolors.256dark`
+}; fi
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
