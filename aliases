@@ -1,10 +1,6 @@
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
-# Use colors in coreutils utilities output
-alias ls='ls --color=auto'
-alias grep='grep --color'
-
 ### cmd alias ###
 alias ll="ls -lah"
 alias la="ls -A"
@@ -40,7 +36,7 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 ### Git related aliases ###
-alias gag='git exec ag'
+# alias gag='git exec ag'
 
 ### Conda ###
 alias a="conda activate"

@@ -125,4 +125,4 @@ prompt pure
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[[ -f ~/.aliases ]] && source ~/.aliases
+source ~/.aliases
