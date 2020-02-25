@@ -46,7 +46,9 @@ alias list="conda list"
 alias cc="conda create --name"
 
 ### Notebook ###
-alias jl="jupyter lab --no-browser --port 6008 --port-retries=0 &"
+alias jlab="jupyter lab --no-browser --port 6008 --port-retries=0 &"
+alias jlist="jupyter notebook list"
+alias jstop="jupyter notebook stop 6008"
 
 ### Tmux alias ###
 alias ta="tmux attach -t"
