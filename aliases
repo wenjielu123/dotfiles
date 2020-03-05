@@ -50,6 +50,16 @@ alias jlab="jupyter lab --no-browser --port 6008 --port-retries=0 &"
 alias jlist="jupyter notebook list"
 alias jstop="jupyter notebook stop 6008"
 
+### functions ###
+mcd () {
+    mkdir -p $1
+    cd $1
+}
+
+tb () {
+    tensorboard --logdir $1 --port 6006
+}
+
 ### Tmux alias ###
 alias ta="tmux attach -t"
 alias tl="tmux list-sessions"
