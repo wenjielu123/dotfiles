@@ -35,9 +35,6 @@ alias ....="cd ..; cd ..; cd .."
 alias cp='cp -i'
 alias mv='mv -i'
 
-### Git related aliases ###
-# alias gag='git exec ag'
-
 ### Conda ###
 alias a="conda activate"
 alias da="conda deactivate"
