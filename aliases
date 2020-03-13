@@ -11,7 +11,7 @@ alias v="$VISUAL"
 alias q="exit"
 alias c="clear"
 alias k="kill"
-alias ed="echo $DISPLAY"
+alias ed='echo $DISPLAY'
 alias gtop="watch -n 1 nvidia-smi"
 alias p="python"
 
