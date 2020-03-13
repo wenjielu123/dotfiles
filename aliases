@@ -2,9 +2,9 @@
 alias path='echo $PATH | tr -s ":" "\n"'
 
 ### cmd alias ###
-alias ll="ls -lah"
-alias la="ls -A"
-alias l="ls -CF"
+alias ls="exa"
+alias la="exa -bghHliSa"
+alias ll="exa -bghHliS"
 alias ln="ln -v"
 alias v="$VISUAL"
 
@@ -35,9 +35,6 @@ alias ....="cd ..; cd ..; cd .."
 alias cp='cp -i'
 alias mv='mv -i'
 
-### Git related aliases ###
-# alias gag='git exec ag'
-
 ### Conda ###
 alias a="conda activate"
 alias da="conda deactivate"
@@ -46,7 +43,19 @@ alias list="conda list"
 alias cc="conda create --name"
 
 ### Notebook ###
-alias jl="jupyter lab &"
+alias jlab="jupyter lab --no-browser --port 6008 --port-retries=0 &"
+alias jlist="jupyter notebook list"
+alias jstop="jupyter notebook stop 6008"
+
+### functions ###
+mcd () {
+    mkdir -p $1
+    cd $1
+}
+
+tb () {
+    tensorboard --logdir $1 --port 6006
+}
 
 ### Tmux alias ###
 alias ta="tmux attach -t"

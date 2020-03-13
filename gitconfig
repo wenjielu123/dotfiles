@@ -1,6 +1,12 @@
 [alias]
 	update-submodules = submodule update --init --recursive
 	upgrade-submodules = submodule update --init --remote
+    st = status -sb
+    br = branch -vv
+    bra = branch -vv --all
+    aa = add --all :/
+    co = checkout
+    di = diff
 
 [color]
 	ui = auto
@@ -11,3 +17,5 @@
 [user]
 	name = Wenjie Lu
 	email = luwenjie2002@gmail.com
+[credential "https://gitlab.analog.com"]
+	helper = store
