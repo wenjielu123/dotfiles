@@ -7,9 +7,32 @@
     aa = add --all :/
     co = checkout
     di = diff
+    lg = log --all --online
+    graph = log --all --graph --decorate --oneline
+     
+[diff]
+    mnemonicPrefix = true
+    wordRegex = "[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+"
+    compactionHeuristic = true
+
+[core]
+    editor = vim 
 
 [color]
 	ui = auto
+
+[color "grep"]
+    match = cyan bold
+    selected = blue
+    context = normal
+    filename = magenta
+    linenumber = green
+    separator = yellow
+    function = blue
+
+[pretty]
+    line = "%C(auto)%h %<|(60,trunc)%s %C(green)%ad%C(auto)%d"
+    detail = "%C(auto)%h %s%n  %C(yellow)by %C(blue)%an %C(magenta)<%ae> [%G?] %C(green)%ad%n %C(auto)%d%n"
 
 [core]
 	excludesfile = ~/.gitignore_global
@@ -17,5 +40,6 @@
 [user]
 	name = Wenjie Lu
 	email = luwenjie2002@gmail.com
+
 [credential "https://gitlab.analog.com"]
 	helper = store
