@@ -7,7 +7,7 @@
     aa = add --all :/
     co = checkout
     di = diff
-    lg = log --all --online
+    lg = log --all --oneline
     graph = log --all --graph --decorate --oneline
      
 [diff]
