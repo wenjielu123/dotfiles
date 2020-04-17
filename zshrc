@@ -9,6 +9,7 @@ if [[ "$(uname)" != "Darwin" ]]; then {
 export ZSH=$HOME/.oh-my-zsh
 
 export PATH="$HOME/miniconda3/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!

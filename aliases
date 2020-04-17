@@ -48,7 +48,7 @@ mcd () {
 }
 
 tb () {
-    tensorboard --logdir $1 --port 6006
+    tensorboard --logdir $1 --port 6002
 }
 
 ### Tmux alias ###
