@@ -1,0 +1,11 @@
+pane	0	1	:..muzero-python	0	:-	1	:/home/wlu/Code/muzero-python	1	zsh	:
+pane	0	1	:..muzero-python	0	:-	2	:/home/wlu/Code/muzero-python	0	zsh	:
+pane	0	2	:../next_gen_dpd	1	:*	1	:/home/wlu/Code/next_gen_dpd	1	zsh	:/home/wlu/.conda/envs/dl/bin/python3.7 /home/wlu/.conda/envs/dl/bin/jupyter-lab --no-browser --port 6008 --port-retries=0
+pane	0	2	:../next_gen_dpd	1	:*	2	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	2	:../next_gen_dpd	1	:*	3	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	2	:../next_gen_dpd	1	:*	4	:/home/wlu/Code/next_gen_dpd	0	python	:python
+pane	0	2	:../next_gen_dpd	1	:*	5	:/home/wlu	0	htop	:htop
+pane	0	2	:../next_gen_dpd	1	:*	6	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+window	0	1	0	:-	dda7,255x71,0,0{128x71,0,0,7,126x71,129,0,8}
+window	0	2	1	:*	f075,255x71,0,0{195x71,0,0[195x31,0,0{90x31,0,0,1,104x31,91,0,9},195x39,0,32{119x39,0,32,3,75x39,120,32,6}],59x71,196,0[59x43,196,0,4,59x27,196,44,5]}
+state	0	

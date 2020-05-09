@@ -1,0 +1,14 @@
+pane	0	1	:../next_gen_dpd	1	:*	1	:/home/wlu/Code/next_gen_dpd	0	zsh	:/home/wlu/.conda/envs/dpd/bin/python3.7 /home/wlu/.conda/envs/dpd/bin/jupyter-lab --no-browser --port 6008 --port-retries=0
+pane	0	1	:../next_gen_dpd	1	:*	2	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	1	:../next_gen_dpd	1	:*	3	:/home/wlu/Code/next_gen_dpd	1	zsh	:
+pane	0	1	:../next_gen_dpd	1	:*	4	:/home/wlu	0	htop	:htop
+pane	0	1	:../next_gen_dpd	1	:*	5	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+pane	0	2	:..ode/loop-comp	0	:	1	:/home/wlu/Code/loop-comp	0	zsh	:/home/wlu/.conda/envs/loop-comp/bin/python3.7 /home/wlu/.conda/envs/loop-comp/bin/jupyter-lab --no-browser --port 6008 --port-retries=0
+pane	0	2	:..ode/loop-comp	0	:	2	:/home/wlu/Code/loop-comp	1	zsh	:
+pane	0	2	:..ode/loop-comp	0	:	3	:/home/wlu/Code/loop-comp	0	zsh	:
+pane	0	2	:..ode/loop-comp	0	:	4	:/home/wlu	0	zsh	:
+pane	0	3	:..muzero-python	0	:-	1	:/home/wlu/Code/muzero-python	1	zsh	:
+window	0	1	1	:*	5cb4,284x75,0,0{103x75,0,0[103x28,0,0,0,103x46,0,29,3],85x75,104,0,1,94x75,190,0[94x37,190,0,2,94x37,190,38,9]}
+window	0	2	0	:	13c7,284x75,0,0{161x75,0,0[161x37,0,0,4,161x37,0,38{84x37,0,38,6,76x37,85,38,8}],122x75,162,0,5}
+window	0	3	0	:-	c8a4,284x75,0,0,7
+state	0	
