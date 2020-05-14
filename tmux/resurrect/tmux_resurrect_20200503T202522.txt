@@ -1,0 +1,12 @@
+pane	0	1	:../next_gen_dpd	0	:	1	:/home/wlu/Code/next_gen_dpd	1	zsh	:
+pane	0	1	:../next_gen_dpd	0	:	2	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	1	:../next_gen_dpd	0	:	3	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	1	:../next_gen_dpd	0	:	4	:/home/wlu	0	htop	:htop
+pane	0	2	:..ode/loop-comp	0	:-	1	:/home/wlu/Code/loop-comp	1	zsh	:/home/wlu/.conda/envs/loop-comp/bin/python3.7 /home/wlu/.conda/envs/loop-comp/bin/jupyter-lab --no-browser --port 6008 --port-retries=0
+pane	0	2	:..ode/loop-comp	0	:-	2	:/home/wlu/Code/loop-comp	0	zsh	:
+pane	0	2	:..ode/loop-comp	0	:-	3	:/home/wlu	0	zsh	:
+pane	0	3	:conda	1	:*	1	:/home/wlu/Code/muzero-python	1	python	:/home/wlu/miniconda3/bin/python /home/wlu/miniconda3/bin/conda-env update -f scripts/environment.yml --prune
+window	0	1	0	:	ca25,284x75,0,0{103x75,0,0[103x28,0,0,0,103x46,0,29,3],85x75,104,0,1,94x75,190,0,2}
+window	0	2	0	:-	902c,284x75,0,0{143x75,0,0[143x37,0,0,4,143x37,0,38,6],140x75,144,0,5}
+window	0	3	1	:*	c8a4,284x75,0,0,7
+state	0	

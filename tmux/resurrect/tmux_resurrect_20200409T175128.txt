@@ -1,0 +1,9 @@
+pane	0	1	:~	1	:*	1	:/home/wlu	1	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	1	:/home/wlu/Code/next_gen_dpd	0	zsh	:/home/wlu/.conda/envs/dl/bin/python3.7 /home/wlu/.conda/envs/dl/bin/jupyter-lab --no-browser --port 6008 --port-retries=0
+pane	0	2	:../next_gen_dpd	0	:-	2	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	3	:/home/wlu/Code/next_gen_dpd	1	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	4	:/home/wlu	0	htop	:htop
+pane	0	2	:../next_gen_dpd	0	:-	5	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+window	0	1	1	:*	d0a4,284x77,0,0,7
+window	0	2	0	:-	7d89,284x77,0,0{198x77,0,0[198x34,0,0,1,198x42,0,35{119x42,0,35,3,78x42,120,35,6}],85x77,199,0[85x55,199,0,4,85x21,199,56,5]}
+state	0	

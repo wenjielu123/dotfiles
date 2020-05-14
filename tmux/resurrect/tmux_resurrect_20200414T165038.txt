@@ -1,0 +1,9 @@
+pane	0	1	:..muzero-python	1	:*	1	:/home/wlu/Code/muzero-python	1	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	1	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	2	:/home/wlu/Code/next_gen_dpd	1	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	3	:/home/wlu/Code/next_gen_dpd	0	python	:python
+pane	0	2	:../next_gen_dpd	0	:-	4	:/home/wlu	0	htop	:htop
+pane	0	2	:../next_gen_dpd	0	:-	5	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+window	0	1	1	:*	b864,255x71,0,0,7
+window	0	2	0	:-	68cb,255x71,0,0{165x71,0,0[165x31,0,0,1,165x39,0,32{95x39,0,32,3,69x39,96,32,6}],89x71,166,0[89x43,166,0,4,89x27,166,44,5]}
+state	0	

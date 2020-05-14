@@ -37,7 +37,7 @@ alias envs="conda info --envs"
 alias cc="conda create --name"
 
 ### Notebook ###
-alias jlab="jupyter lab --no-browser --port 6008 --port-retries=0 &"
+alias jlab="jupyter lab --no-browser --port 6008 &"
 alias jlist="jupyter notebook list"
 alias jstop="jupyter notebook stop 6008"
 

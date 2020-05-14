@@ -1,0 +1,11 @@
+pane	0	1	:..muzero-python	1	:*M	1	:/home/wlu/Code/muzero-python	1	zsh	:
+pane	0	1	:..muzero-python	1	:*M	2	:/home/wlu/Code/muzero-python	0	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	1	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	2	:/home/wlu/Personal_projects/pytorch-template	0	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	3	:/home/wlu/Code/next_gen_dpd	1	zsh	:
+pane	0	2	:../next_gen_dpd	0	:-	4	:/home/wlu/Code/next_gen_dpd	0	python	:python
+pane	0	2	:../next_gen_dpd	0	:-	5	:/home/wlu	0	htop	:htop
+pane	0	2	:../next_gen_dpd	0	:-	6	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+window	0	1	1	:*M	d559,284x75,0,0{143x75,0,0,7,140x75,144,0,8}
+window	0	2	0	:-	6d31,284x75,0,0{189x75,0,0[189x36,0,0{113x36,0,0,1,75x36,114,0,9},189x38,0,37{118x38,0,37,3,70x38,119,37,6}],94x75,190,0[94x45,190,0,4,94x29,190,46,5]}
+state	0	
