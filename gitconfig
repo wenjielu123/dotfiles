@@ -6,6 +6,8 @@
     bra = branch -vv --all
     aa = add --all :/
     co = checkout
+    rb = rebase -i
+    cm = commit -m
     di = diff
     lg = log --all --oneline
     graph = log --all --graph --decorate --oneline

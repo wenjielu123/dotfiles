@@ -37,9 +37,7 @@ alias envs="conda info --envs"
 alias cc="conda create --name"
 
 ### Notebook ###
-alias jlab="jupyter lab --no-browser --port 6008 &"
 alias jlist="jupyter notebook list"
-alias jstop="jupyter notebook stop 6008"
 
 ### functions ###
 mcd () {
@@ -48,7 +46,15 @@ mcd () {
 }
 
 tb () {
-    tensorboard --logdir $1 --port 6002
+    tensorboard --logdir $1 --port $1
+}
+
+jlab () {
+    jupyter lab --no-browser --port $1
+}
+
+jstop () {
+    jupyter notebook stop $1
 }
 
 ### Tmux alias ###
