@@ -1,0 +1,11 @@
+pane	0	1	:../next_gen_dpd	0	:	1	:/home/wlu/Code/next_gen_dpd	1	zsh	:
+pane	0	1	:../next_gen_dpd	0	:	2	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	1	:../next_gen_dpd	0	:	3	:/home/wlu	0	zsh	:
+pane	0	1	:../next_gen_dpd	0	:	4	:/home/wlu	0	htop	:htop
+pane	0	1	:../next_gen_dpd	0	:	5	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+pane	0	2	:..ode/loop-comp	1	:*	1	:/home/wlu/Code/loop-comp	1	zsh	:
+pane	0	3	:..muzero-python	0	:-	1	:/home/wlu/Code/muzero-python	1	zsh	:
+window	0	1	0	:	99a7,284x75,0,0{103x75,0,0[103x33,0,0,0,103x41,0,34,3],85x75,104,0,1,94x75,190,0[94x52,190,0,2,94x22,190,53,9]}
+window	0	2	1	:*	647f,284x75,0,0,10
+window	0	3	0	:-	c8a4,284x75,0,0,7
+state	0	

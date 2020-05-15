@@ -1,0 +1,13 @@
+pane	0	1	:../next_gen_dpd	1	:*	1	:/home/wlu/Code/next_gen_dpd	1	zsh	:/home/wlu/.conda/envs/dpd/bin/python3.7 /home/wlu/.conda/envs/dpd/bin/jupyter-lab --no-browser --port 6008
+pane	0	1	:../next_gen_dpd	1	:*	2	:/home/wlu/Code/next_gen_dpd	0	zsh	:
+pane	0	1	:../next_gen_dpd	1	:*	3	:/home/wlu	0	zsh	:
+pane	0	1	:../next_gen_dpd	1	:*	4	:/home/wlu	0	htop	:htop
+pane	0	1	:../next_gen_dpd	1	:*	5	:/home/wlu	0	watch	:watch -n 1 nvidia-smi
+pane	0	2	:..ode/loop-comp	0	:-	1	:/home/wlu/Code/loop-comp	1	zsh	:
+pane	0	2	:..ode/loop-comp	0	:-	2	:/home/wlu/Code/loop-comp	0	zsh	:
+pane	0	2	:..ode/loop-comp	0	:-	3	:/tmp/4618c4a5-fc52-4ae4-ab20-02d15d531252\ (deleted)	0	zsh	:
+pane	0	3	:..muzero-python	0	:	1	:/home/wlu/Code/muzero-python	1	zsh	:
+window	0	1	1	:*	8b10,319x90,0,0{116x90,0,0[116x40,0,0,0,116x49,0,41,3],100x90,117,0,1,101x90,218,0[101x58,218,0,2,101x31,218,59,9]}
+window	0	2	0	:-	3657,319x90,0,0{162x90,0,0[162x45,0,0,10,162x44,0,46,12],156x90,163,0,11}
+window	0	3	0	:	b984,319x90,0,0,7
+state	0	
