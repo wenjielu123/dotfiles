@@ -1,3 +1,5 @@
+alias sudo="sudo "
+
 # Pretty print the path
 alias path='echo $PATH | tr -s ":" "\n"'
 
@@ -15,6 +17,8 @@ alias ed='echo $DISPLAY'
 alias gtop="watch -n 1 nvidia-smi"
 alias p="python"
 alias g="git"
+
+alias cleanram="sh -c \"echo 1 > /proc/sys/vm/drop_caches\""
 
 ### directories ###
 alias ~="cd ~"
@@ -46,7 +50,7 @@ mcd () {
 }
 
 tb () {
-    tensorboard --logdir $1 --port $1
+    tensorboard --logdir $1 --port $2
 }
 
 jlab () {
