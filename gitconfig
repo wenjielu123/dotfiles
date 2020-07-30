@@ -11,7 +11,8 @@
     di = diff
     lg = log --all --oneline
     graph = log --all --graph --decorate --oneline
-     
+    f = fetch --all --prune
+
 [diff]
     mnemonicPrefix = true
     wordRegex = "[^[:space:]]|([[:alnum:]]|UTF_8_GUARD)+"
