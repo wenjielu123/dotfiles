@@ -9,7 +9,7 @@ alias la="exa -bghHliSa"
 alias ll="exa -bghHliS"
 alias ln="ln -v"
 alias v="$VISUAL"
-alias tree="exa --tree"
+#alias tree="exa --tree"
 
 alias q="exit"
 alias c="clear"

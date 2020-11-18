@@ -1,4 +1,5 @@
 #!/bin/sh
+conda install -c conda-forge jupyterlab
 
 conda install nb_conda_kernels
 conda install nodejs=10.13.0
