@@ -125,4 +125,4 @@ WHITE_BOLD='\[\e[01;0m\]'
 
 export PATH=/usr/local/cuda-10.0/bin:$PATH
 
-[[ -f ~/.aliases ]] && source ~/.aliases
+[[ -f ~/.aliases ]] && source ~/.aliasessource "$HOME/.cargo/env"
