@@ -72,3 +72,4 @@ alias tn="tmux new-session\; split-window -h"
 
 ### SSH ###
 alias adi="ssh -Y wlu-adi"
+alias dpd="ssh -Y dpd-adi"
