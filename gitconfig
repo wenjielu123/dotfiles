@@ -50,4 +50,3 @@
 [credential "https://gitlab.analog.com"]
 	helper = store
 [credential]
-	helper = store

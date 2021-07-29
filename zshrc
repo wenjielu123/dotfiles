@@ -7,6 +7,8 @@ if [[ "$(uname)" != "Darwin" ]]; then {
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
+export DPD_SYN=/home/dpd/synology
+export DPD_HOME=/home/dpd
 
 # export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 export PATH="$HOME/.cargo/bin:$PATH"
