@@ -5,6 +5,10 @@ if [[ "$(uname)" != "Darwin" ]]; then {
     eval `dircolors ~/.zsh/dircolors-solarized/dircolors.256dark`
 }; fi
 
+# Go path
+export GOPATH=~/go
+export PATH=$PATH:$GOPATH/bin
+
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
 export DPD_SYN=/home/dpd/synology
@@ -12,6 +16,7 @@ export DPD_HOME=/home/dpd
 
 # export PATH="$HOME/miniconda3/bin:$PATH"  # commented out by conda initialize
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
